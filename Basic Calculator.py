@@ -40,3 +40,14 @@ if typeOfCalc == 'Exponents':
     
 
     print('Your answer is: ' + expAnswer + '.')
+
+if typeOfCalc == 'Subtraction':
+    print('Welcome to Subtraction Calculator!')
+    print('')
+    subNum1 = float(input('Enter Number: '))
+    subNum2 = float(input('Enter Number 2: '))
+    subAnswer = str(subNum1 - subNum2)
+    
+
+    print('Your answer is: ' + subAnswer + '.')
+
