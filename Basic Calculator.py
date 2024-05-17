@@ -2,7 +2,7 @@
 print('Basic Calculator: Made By Owen M.')
 print('')
 
-typeOfCalc = input('What type of calculator? (Division, Multiplication, Addition, Exponents): ')
+typeOfCalc = input('What type of calculator? (Division, Multiplication, Addition, Exponents, Subtraction): ')
 
 if typeOfCalc == 'Division':
     print('Welcome to Division Calculator!')
